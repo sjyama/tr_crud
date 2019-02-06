@@ -1,3 +1,4 @@
+<%= link_to "一覧画面へ", "/users" %>
 <%= form_for @user, url: "/users" , html: { method: :post } do |f| %>
   <p>投稿する</p>
   <p>お名前：<%= f.text_field :name %></p>
