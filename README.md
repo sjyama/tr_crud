@@ -1,24 +1,14 @@
-# README
+# CRUD処理の実装
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 機能概要
+CRUD処理を一通り実装
 
-Things you may want to cover:
+## 実装メモ
+* 
+* 
+* 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 学習メモ
+* 
+* 
+* 
