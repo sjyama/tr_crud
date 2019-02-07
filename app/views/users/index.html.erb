@@ -1,8 +1,10 @@
 <%= link_to "投稿画面へ", "/users/new" %>
+<p>[NAME], [AGE]</p>
 <% @users.each do |user| %>
 	<p>
 		<%= user.name %>
 		<%= user.age %>
 		<%= link_to "削除", "/users/#{user.id}",method: :delete, data: {confirm: "削除しますか?"} %>
+		<%= link_to "修正", "/users/#{user.id}/edit",method: :get %>
 	</p>
 <% end %>

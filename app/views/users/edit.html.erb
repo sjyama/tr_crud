@@ -1,0 +1,7 @@
+<%= link_to "一覧画面へ", "/users" %>
+<%= form_for @user, url: "/users/#{@user.id}", html: {method: :patch} do |f| %>
+  <h2><%= @user.name %> の編集画面</h2>
+  <p>お名前：<%= f.text_field :name %></p>
+  <p>年齢：<%= f.text_field :age %></p>
+  <input type="submit" value="更新" %>
+<% end %>
